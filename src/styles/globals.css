@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -10,17 +11,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* .individual {
-  border-radius: 0;
-} */
-
 .individual + .individual {
   border-top: 1px solid #a0aec0;
-  /* border-top-width: 2px; */
 }
 
 .individualBox {
